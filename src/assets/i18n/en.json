@@ -1,0 +1,20 @@
+{
+    "title": "REWE Client's Card",
+    "teilnahmebeginn": "Beginning Date",
+    "eweStatus": "Consent Status",
+    "eweAenderung": "Consent Modification",
+    "eweUeberlagerung": "Expire Date",
+    "gueltigBis": "Valid Until",
+    "einloeseBis": "Exchange Date",
+    "ewe09": "Consent / Accepted",
+    "ewe16": "Consent / Accepted",
+
+    "null": "Non Existent",
+    "true": "Yes",
+    "false": "No",
+    
+    "GEGEBEN": "Authorized",
+    "NICHT_BERECHTIGT": "Not Authorized",
+    "auth_error": "Authorization error, try again.",
+    "no_connection": "No connection found, try again later."
+}

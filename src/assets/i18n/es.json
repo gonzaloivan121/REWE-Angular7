@@ -1,0 +1,18 @@
+{
+    "title": "Tarjeta de Cliente de REWE",
+    "teilnahmebeginn": "Fecha de Inicio",
+    "eweStatus": "Estado de Consentimiento",
+    "eweAenderung": "Modificación de Consentimiento",
+    "eweUeberlagerung": "Fecha de Expiración",
+    "gueltigBis": "Válido Hasta",
+    "einloeseBis": "Fecha de Intercambio",
+    "ewe09": "Consentido / Aceptado",
+    "ewe16": "Consentido / Aceptado",
+
+    "null": "No Existe",
+    "true": "Sí",
+    "false": "No",
+    
+    "GEGEBEN": "Autorizado",
+    "NICHT_BERECHTIGT": "No Autorizado"
+}

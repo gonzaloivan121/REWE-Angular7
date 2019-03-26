@@ -1,0 +1,18 @@
+{
+    "title": "REWE Client's Card",
+    "teilnahmebeginn": "Teilnahme Beginn",
+    "eweStatus": "Status",
+    "eweAenderung": "Aenderung",
+    "eweUeberlagerung": "Überlagerung",
+    "gueltigBis": "Gültig Bis",
+    "einloeseBis": "Einlösen Bis",
+    "ewe09": "Einwilligungsehlärung",
+    "ewe16": "Einwilligungsehlärung",
+
+    "null": "Es gibt keine",
+    "true": "Ja",
+    "false": "Nein",
+
+    "GEGEBEN": "Gegeben",
+    "NICHT_BERECHTIGT": "Nicht Berechtigt"
+}
