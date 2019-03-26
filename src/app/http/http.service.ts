@@ -9,10 +9,11 @@ export class HttpService {
 
   constructor(private http: HttpClient, public translate: TranslateService) {}
 
-  static getResponse(idCard: number = 2401235350799, user: string = "admin", pass: string = "e9TwgxmZ-MeDTcE*aKAh9d[Lp~wVGt9W") {
+  static async getResponse(idCard: number = 2401235350799, user: string = "admin", pass: string = "e9TwgxmZ-MeDTcE*aKAh9d[Lp~wVGt9W") {
     // 2401235350799
     let url = 'https://bonuscoupon-stg.rewe-systems.local/karte/' + idCard + '/mandant/413';
     let b64access = window.btoa(user + ":" + pass);
+    let values;
 
     if (!checkMSIE()) {
       // START FETCH
@@ -52,8 +53,8 @@ export class HttpService {
         }
       }
 
-      return new Promise(function(resolve, reject) {
-        resolve(observe(this));
+      return new Promise(await function(resolve, reject) {
+        resolve(this.values);
         reject(new Error("Error"));
       })
       // END XMLHTTP
@@ -64,7 +65,7 @@ export class HttpService {
 }
 
 function observe(ev) {
-  return ev;
+  this.values = ev;
 }
 
 function checkMSIE() {
